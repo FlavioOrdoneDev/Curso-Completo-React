@@ -1,10 +1,15 @@
+import Api from './api/Api';
+import './App.css';
 
 function App() {
   return (
     <div>
-      App react
+      <Api />
     </div>
   );
 }
 
 export default App;
+
+
+//https://dogsapi.origamid.dev/json/
