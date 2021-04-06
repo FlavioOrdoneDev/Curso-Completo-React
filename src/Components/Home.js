@@ -1,10 +1,11 @@
 import React from 'react'
+import Feed from './Feeds/Feed'
 
 function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <section className="container mainContainer">
+      <Feed />
+    </section>
   )
 }
 
